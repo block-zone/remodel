@@ -20,11 +20,11 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
-rbx_binary = "0.6.4"
-rbx_dom_weak = "2.3.0"
-rbx_reflection = "4.2.0"
-rbx_reflection_database = "0.2.4"
-rbx_xml = "0.12.3"
+rbx_binary = { git = "https://github.com/block-zone/rbx-dom/", package = "rbx_binary" }
+rbx_dom_weak = { git = "https://github.com/block-zone/rbx-dom/", package = "rbx_dom_weak" }
+rbx_reflection = { git = "https://github.com/block-zone/rbx-dom/", package = "rbx_reflection" }
+rbx_reflection_database = { git = "https://github.com/block-zone/rbx-dom/", package = "rbx_reflection_database" }
+rbx_xml = { git = "https://github.com/block-zone/rbx-dom/", package = "rbx_xml" }
 
 anyhow = "1.0.44"
 backtrace = "0.3.61"
